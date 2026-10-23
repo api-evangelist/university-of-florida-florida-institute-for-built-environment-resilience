@@ -1,0 +1,24 @@
+aid: university-of-florida-florida-institute-for-built-environment-resilience
+name: University of Florida, Florida Institute for Built Environment Resilience
+description: 'University of Florida, Florida Institute for Built Environment Resilience is a company surfaced
+  via the API Evangelist harvest backlog (source: vc-portfolio) and added to the network as a stub for
+  full-pipeline profiling.'
+url: https://raw.githubusercontent.com/api-evangelist/university-of-florida-florida-institute-for-built-environment-resilience/refs/heads/main/apis.yml
+x-type: company
+x-source: harvest:vc-portfolio
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-10-23'
+modified: '2026-10-23'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://dcp.ufl.edu/fiber/
