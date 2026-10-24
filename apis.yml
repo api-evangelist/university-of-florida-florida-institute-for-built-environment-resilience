@@ -1,24 +1,70 @@
 aid: university-of-florida-florida-institute-for-built-environment-resilience
+
 name: University of Florida, Florida Institute for Built Environment Resilience
-description: 'University of Florida, Florida Institute for Built Environment Resilience is a company surfaced
-  via the API Evangelist harvest backlog (source: vc-portfolio) and added to the network as a stub for
-  full-pipeline profiling.'
+
+image: https://dcp.ufl.edu/fiber/wp-content/uploads/sites/12/2024/01/frclogo2.png
+
+description: 'The University of Florida’s Florida Institute for Built Environment Resilience (FIBER) focuses on research, education, and outreach to improve the resilience of built environments against climate change, natural hazards, and other stressors. It integrates interdisciplinary expertise in engineering, planning, and environmental science to develop innovative solutions, tools, and policies that enhance infrastructure durability, sustainability, and community well‑being across Florida and beyond.'
+
 url: https://raw.githubusercontent.com/api-evangelist/university-of-florida-florida-institute-for-built-environment-resilience/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
 - Company
-apis: []
+- Research
+- Climate-Resilience
+- Engineering
+- Education
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/university-of-florida-florida-institute-for-built-environment-resilience-hosts.yml
+- type: Security
+  url: https://it.ufl.edu/services/security/
+- type: PrivacyPolicy
+  url: https://privacy.ufl.edu/privacy-policies-and-procedures/onlineinternet-privacy-statement/
+- type: Newsroom
+  url: https://dcp.ufl.edu/fiber/news/
+- type: Leadership
+  url: https://dcp.ufl.edu/fiber/team/
+- type: Documentation
+  url: https://it.ufl.edu/ict/documentation/network-infrastructure/vpn/
+- type: DomainSecurity
+  url: security/university-of-florida-florida-institute-for-built-environment-resilience-domain-security.yml
 - type: Website
   url: https://dcp.ufl.edu/fiber/
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: The provider's website does not offer a developer program or public API documentation.
+  evidence:
+    - url: https://dcp.ufl.edu/fiber/
+      status: 200
+  checked: '2026-10-23'
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

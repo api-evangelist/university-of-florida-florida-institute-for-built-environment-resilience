@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/university-of-florida-florida-institute-for-built-environment-resilience/integrations
+- https://n8n.io/integrations/university-of-florida-florida-institute-for-built-environment-resilience/
+- https://composio.dev/toolkits/university-of-florida-florida-institute-for-built-environment-resilience
+- https://monid.ai/tools/university-of-florida-florida-institute-for-built-environment-resilience
+checked:
+- https://composio.dev/toolkits/university-of-florida-florida-institute-for-built-environment-resilience
+- https://monid.ai/tools/university-of-florida-florida-institute-for-built-environment-resilience
+- https://n8n.io/integrations/university-of-florida-florida-institute-for-built-environment-resilience/
+- https://zapier.com/apps/university-of-florida-florida-institute-for-built-environment-resilience/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
